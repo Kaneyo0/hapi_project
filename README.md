@@ -1,13 +1,10 @@
-# hapi_project
+# HAPI_PROJECT
+---
 
 ## DESCRIPTION
-
---- 
 Movie library made with hapi for the LP. You can create and manage movies. 
 
 ## SETUP
-
---- 
 You must use `npm i` to install all the required packages.
 
 Then configure a `.env` file by renaming `./server/.env-keep` and add it those parameters :
@@ -22,7 +19,6 @@ Then configure a `.env` file by renaming `./server/.env-keep` and add it those p
 - `MAILER_PORT` : Mailer port
 - `MAILER_AUTH_USER` : Email of the user who will send the mails
 - `MAILER_AUTH_PWD` : Password of the user who will send the mails
-
 
 ## RUN
 - Type `npm run start` tu run the application.
