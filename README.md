@@ -2,7 +2,7 @@
 ---
 
 ## DESCRIPTION
-Movie library made with hapi for the LP. You can create and manage movies. 
+Movie library made with hapi for the LP. You can create and manage movies depending on your user rights. 
 
 ## SETUP
 You must use `npm i` to install all the required packages.
@@ -21,5 +21,5 @@ Then configure a `.env` file by renaming `./server/.env-keep` and add it those p
 - `MAILER_AUTH_PWD` : Password of the user who will send the mails
 
 ## RUN
-- Type `npm run start` tu run the application.
+- Type `npm run start` tu run the application. (This will also automatically run the migrations)
 - Go to `localhost:3000/documentation` to use all the routes.
