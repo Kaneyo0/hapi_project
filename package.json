@@ -1,9 +1,9 @@
 {
-  "name": "iut-project",
+  "name": "hapi_project",
   "version": "1.0.0",
   "description": "",
-  "author": "",
-  "license": "ISC",
+  "author": "Tom DUCHESNE",
+  "license": "",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib",
